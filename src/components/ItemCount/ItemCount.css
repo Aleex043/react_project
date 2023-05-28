@@ -1,0 +1,25 @@
+.btn{
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+    padding: 1rem;
+    font-size: 20px;
+}
+
+.btn-counter{
+    padding: 4px 8px 4px 8px;
+    margin: 0 20px 10px 20px;
+    cursor: pointer;
+    border: 2px solid #333533;
+    border-radius: 1000px;
+    background-color: #CCA000;
+}
+
+.btn-add{
+    border: 2px solid #333533;
+    border-radius: 1000px;
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: #CCA000;
+
+}

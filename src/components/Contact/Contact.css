@@ -1,0 +1,55 @@
+.contact{
+    width: 100%;
+    height: 85vh;
+    background-image: url(../../assets/contacto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.form{
+    position: relative;
+    top: 40px;
+    width: 90%;
+    max-width: 650px;
+    margin: auto;
+    padding: 10px 35px;
+    background: #000000cc;
+}
+
+.form-title{
+    text-align: center;
+    margin-bottom: 30px;
+    color: #CCA000;
+}
+.form-label{
+    display: block;
+    color: #CCA000;
+}
+
+.form-input{
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-bottom: 2px solid #CCA000;
+    background-color: #52525271;
+    margin-bottom: 20px;
+}
+
+.form-textarea{
+    width: 100%;
+    height: 120px;
+    background-color: #52525271;
+    border: none;
+    margin-bottom: 10px;
+}
+
+.form-submit{
+    width: 50%;
+    margin-left: 25%;
+    padding: 5px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    background-color: #CCA000;
+}
