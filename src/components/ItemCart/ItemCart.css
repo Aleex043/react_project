@@ -1,0 +1,31 @@
+.itemCart{
+    display: flex;
+    border-bottom: 1px solid #CCA000;
+    max-width: 500px;
+    margin: 1rem auto;
+}
+
+.itemCart img{
+    width: 200px;
+    margin-right: 1rem;
+}
+
+.precioTotal{
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.buyContainer{
+    width: 100%;
+}
+
+.clickBuy{
+    border: 2px solid #333533;
+    border-radius: 1000px;
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: #CCA000;
+    position: relative;
+    left: 47%;
+}

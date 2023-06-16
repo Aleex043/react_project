@@ -1,8 +1,11 @@
-import '../NavBar/NavBar.css';
+import React from 'react'
+import { useCartContext } from '../../context/CartContext'
 
-const CartWidget = () => {
+
+export const CartWidget = () => {
+  const {totalProducts} = useCartContext();
   return (
-    <i className="bi bi-cart3"><span className='cart-counter'>0</span></i>
+    <i className="bi bi-cart3"><span className='cart-counter'>{totalProducts() || ''}</span></i>
   )
 }
 
