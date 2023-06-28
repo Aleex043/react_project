@@ -29,3 +29,25 @@
     position: relative;
     left: 47%;
 }
+
+.btn-checkout{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    border: 2px solid #333533;
+    border-radius: 1000px;
+    padding: 15px 20px;
+    cursor: pointer;
+    background-color: #CCA000;
+    position: relative;
+    left: 46%;
+}
+
+.btn-eliminar{
+    border: 2px solid #333533;
+    border-radius: 1000px;
+    margin: 15px 0;
+    padding: 5px;
+    cursor: pointer;
+    background-color: #CCA000;
+}

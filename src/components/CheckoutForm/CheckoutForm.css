@@ -1,4 +1,4 @@
-.contact{
+.checkout-form{
     width: 100%;
     height: 85vh;
     background-image: url(../../assets/contacto.jpg);
@@ -32,16 +32,8 @@
     height: 30px;
     border: none;
     border-bottom: 2px solid #CCA000;
-    background-color: #52525271;
+    background-color: #a5a5a571;
     margin-bottom: 20px;
-}
-
-.form-textarea{
-    width: 100%;
-    height: 120px;
-    background-color: #52525271;
-    border: none;
-    margin-bottom: 10px;
 }
 
 .form-submit{
@@ -52,4 +44,5 @@
     border-radius: 8px;
     font-weight: bold;
     background-color: #CCA000;
-}
+    cursor: pointer;
+} 
