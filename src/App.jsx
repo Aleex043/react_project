@@ -10,6 +10,7 @@ import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailCont
 import Contact from './components/Contact/Contact';
 import Cart from './components/Cart/Cart';
 import CartProvider from './context/CartContext';
+import Check from './components/Cart/CheckOut';
 
 const App = () => {
   return (
@@ -23,6 +24,8 @@ const App = () => {
             <Route path="/contacto" element={<Contact />} />
             <Route path="/detalle/:detalleId" element={<ItemDetailContainer />} />
             <Route path="/cart" element={<Cart />} />
+            <Route path="/checkout" element={<Check />} />
+
           </Routes>
         </CartProvider>
       </BrowserRouter>

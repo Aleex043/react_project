@@ -26,6 +26,8 @@ const CartProvider = ({children}) => {
     
     const removeProduct = (id) => setCart(cart.filter(product => product.id !==id));
 
+
+    
   return (
     <CartContex.Provider value={{
         clearCart,
